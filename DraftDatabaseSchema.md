@@ -25,7 +25,7 @@
 - service_description
 - service_cost
   
-## Comprehsive Insurance Table:
+## Comprehensive Insurance Table:
 - insurance_id (Primary Key)
 - vehicle_id (Foreign Key, references Vehicle Table)
 - insurance_provider
@@ -34,10 +34,10 @@
 - end_date
 - premium_amount
 
-## Compulsory Third-Party Insurance Table:
-- ctpinsurance-id
+## Green Slip Table:
+- greenslip-id
 - vehicle_id (Foreign Key, references Vehicle Table)
-- ctpinsurance_provider
+- greenslip_provider
 - policy_number
 - start_date
 - end_date
@@ -57,7 +57,7 @@
 - registration_date
 - registration_end_date
 
-## Ramp Service
+## Ramp Service Table
 - Ramp_service_id (Primary Key)
 - vehicle_id (Foreign Key, references Vehicle Table)
 - ramp_service_date
